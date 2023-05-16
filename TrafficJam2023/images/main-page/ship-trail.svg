@@ -1,17 +1,1 @@
-<svg width="643" height="352" viewBox="0 0 643 352" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_f_117_448)">
-<path d="M571.025 103.067C571.506 103.255 563.572 103.937 562.292 104.013C556.331 104.366 550.369 104.776 544.421 105.37C526.548 107.155 508.77 109.771 491.155 113.231C437.744 123.723 385.228 140.994 338.577 166.491C301.18 186.93 271.638 212.135 245.596 242.414C230.032 260.511 209.516 273.874 183.555 278.825C124.31 290.125 68.6596 251.383 71.1727 200.59C73.8739 145.994 138.67 119.075 191.554 100.894C305.599 61.6874 461.447 60.2911 571.025 103.067Z" fill="url(#paint0_linear_117_448)"/>
-</g>
-<defs>
-<filter id="filter0_f_117_448" x="0.0905762" y="0.236328" width="641.955" height="351.561" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-<feGaussianBlur stdDeviation="35.5" result="effect1_foregroundBlur_117_448"/>
-</filter>
-<linearGradient id="paint0_linear_117_448" x1="150.798" y1="166.335" x2="448.128" y2="48.7367" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FB25FF"/>
-<stop offset="0.54658" stop-color="#4B75FF"/>
-<stop offset="1" stop-color="#0BFFC4"/>
-</linearGradient>
-</defs>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="643" height="352" fill="none" viewBox="0 0 643 352"><g filter="url(#a)"><path fill="url(#b)" d="M571.025 103.067c.481.188-7.453.87-8.733.946-5.961.353-11.923.763-17.871 1.357a570.532 570.532 0 0 0-53.266 7.861c-53.411 10.492-105.927 27.763-152.578 53.26-37.397 20.439-66.939 45.644-92.981 75.923-15.564 18.097-36.08 31.46-62.041 36.411-59.245 11.3-114.895-27.442-112.382-78.235 2.7-54.596 67.497-81.515 120.381-99.696 114.045-39.207 269.893-40.603 379.471 2.173Z"/></g><defs><linearGradient id="b" x1="150.798" x2="448.128" y1="166.335" y2="48.7367" gradientUnits="userSpaceOnUse"><stop stop-color="#FB25FF"/><stop offset="0.54658" stop-color="#4B75FF"/><stop offset="1" stop-color="#0BFFC4"/></linearGradient><filter id="a" width="641.955" height="351.561" x="0.0905762" y="0.236328" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_117_448" stdDeviation="35.5"/></filter></defs></svg>
