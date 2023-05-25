@@ -56,8 +56,8 @@ main {
   display: block;
   bottom: calc(100% - 2px);
   z-index: 20;
-  background-image: url(/images/banner-bottom-line.png);
-  background-image: url(/images/banner-bottom-line.png);
+  background-image: url(../images/banner-bottom-line.png);
+  background-image: url(../images/banner-bottom-line.png);
   background-position: 50% 100%;
   background-size: auto 100%;
 }
