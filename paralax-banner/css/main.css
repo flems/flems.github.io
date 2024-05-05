@@ -37,7 +37,6 @@ main {
   will-change: transform;
 }
 
-
 .main-banner {
   position: relative;
   display: flex;
@@ -46,6 +45,7 @@ main {
 
 .section {
   position: relative;
+  padding: calc(var(--index)* 5) calc(var(--index)* 3.5) calc(var(--index)* 2);
 }
 
 .section:before {
@@ -55,6 +55,7 @@ main {
   width: 100%;
   display: block;
   bottom: calc(100% - 2px);
+  left: 0;
   z-index: 20;
   background-image: url(../images/banner-bottom-line.png);
   background-image: url(../images/banner-bottom-line.png);
@@ -87,6 +88,10 @@ main {
   display: block;
   width: 0;
   padding-top: 50%;
+}
+
+.main-banner-image {
+  pointer-events: none;
 }
 
 .main-banner-image__layer {
@@ -133,7 +138,7 @@ main {
   }
 
   to {
-      transform: translate3d(0,-2px,0)
+      transform: translate3d(0,-4px,0)
   }
 }
 
@@ -156,7 +161,7 @@ main {
 
 .clean-banner__title {
   font-weight: 800;
-  margin-bottom: 54px;
+  margin-bottom: calc(var(--index) * 1.7);
   font-size: calc(var(--index) * 3.5);
   position: relative;
   width: max-content;
@@ -165,9 +170,41 @@ main {
 }
 
 .clean-banner__description {
-  font-size: 32px;
+  font-size: calc(var(--index) * 1.1);
   max-width: calc(var(--index) * 26);
   text-align: left;
   text-shadow: 0px 2px 22px #1a2a50;
   line-height: 1.2;
+}
+
+.quote-block {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.quote-block__header {
+  text-indent: calc(var(--index)* 3);
+  background: linear-gradient(123.73deg, #0077c8 20.82%, rgba(0, 119, 200, 0) 99.26%), #004c97;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: calc(var(--index) * 1.2);
+  line-height: 1.5;
+}
+
+.quote-block__quotes {
+  display: inline-block;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='34' height='25' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M18.962 24.304V12.635S20.39 4.074 28.154 0l2.932 3.107s-4.517 3.038-4.754 9.528h7.527v11.669H18.962zm-3.644 0V12.635H7.869c.238-6.49 4.754-9.528 4.754-9.528L9.692 0C1.846 4.074.5 12.635.5 12.635v11.669h14.818z' fill='%23004C97'/%3E%3Cpath d='M18.962 24.304V12.635S20.39 4.074 28.154 0l2.932 3.107s-4.517 3.038-4.754 9.528h7.527v11.669H18.962zm-3.644 0V12.635H7.869c.238-6.49 4.754-9.528 4.754-9.528L9.692 0C1.846 4.074.5 12.635.5 12.635v11.669h14.818z' fill='url(%23a)'/%3E%3Cdefs%3E%3ClinearGradient id='a' x1='22.274' y1='24.304' x2='-1.442' y2='2.566' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%230077C8'/%3E%3Cstop offset='1' stop-color='%230077C8' stop-opacity='0'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 34px;
+  height: 25px;
+}
+
+.footer {
+  background: #fff;
+  position: relative;
+  background-image: url(../images/footer.png);
+  aspect-ratio: 2800 / 800;
+  background-position: center bottom;
+  background-size: auto 100%;
 }
