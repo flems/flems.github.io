@@ -1,1 +1,0 @@
-import{_ as a}from"./redtjEMu.js";import{W as e,A as r,t as o,S as s}from"./C4eiL4sQ.js";import"./Bpum__ZM.js";const m={__name:"default",setup(_){return(t,l)=>(o(),e(a,null,{default:r(()=>[s(t.$slots,"default")]),_:3}))}};export{m as default};
