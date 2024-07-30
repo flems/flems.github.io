@@ -1,0 +1,1 @@
+import{_ as t}from"./JH6uIl_4.js";import{Y as r,A as a,t as o,S as s}from"./CpIEQbRM.js";import"./DDE5pjLF.js";const n={__name:"brief",setup(_){return(e,f)=>(o(),r(t,{theme:"brief"},{default:a(()=>[s(e.$slots,"default")]),_:3}))}};export{n as default};
