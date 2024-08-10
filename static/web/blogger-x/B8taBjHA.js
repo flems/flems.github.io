@@ -1,1 +1,0 @@
-const t={name:"arrow",width:"24",height:"24",viewBox:"0 0 11 18",data:'<path d="M1.29041 1.36063L8.89982 8.97004L1.29041 16.5794" stroke="currentColor" stroke-width="2.85353"/>'};export{t as default};
