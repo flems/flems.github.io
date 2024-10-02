@@ -7,141 +7,217 @@
     <title>Дебетовая карта «Мир» Газпромбанк</title>
     <script src="https://www.google.com/recaptcha/api.js?render=6Lc0AM8nAAAAAHPMK_vWc_VhnukWqCmEXYs3ZgEo"></script>
     
-    <script type="module" crossorigin src="/assets/main.js"></script>
-    <link rel="stylesheet" href="/assets/index.css">
+    <script type="module" crossorigin src="./assets/main.js"></script>
+    <link rel="stylesheet" href="./assets/index.css">
   </head>
   <body>
     <header class="header">
       <div class="container">
-        <img class="header__logo" src="/images/logo.svg" alt="Газпромбанк">
+        <img class="header__logo" src="./images/logo.svg" alt="Газпромбанк">
       </div>
     </header>
     <main>
-      <div class="main-banner">
-        <div class="container">
-          <div class="main-banner__content">
-            <h1 class="ui-caption main-banner__title">Дебетовая карта «Мир»</h1>
-            <p class="u-collapse-all">Оформите дебетовую карту &laquo;Мир&raquo; по&nbsp;ссылке, совершите покупки по&nbsp;карте на&nbsp;сумму от&nbsp;250&nbsp;₽ и&nbsp;получите сертификат на&nbsp;1&nbsp;000&nbsp;₽ в&nbsp;Золотое Яблоко!</p>
-            <a class="main-banner__button ui-button" href="#form" class="ui-button">
-              Участвовать в&nbsp;акции
-            </a>
+      <div class="hero">
+        <div class="container hero__container">
+          <div class="hero__content">
+            <h1 class="hero__title">Получите сертификат на&nbsp;1&nbsp;000&nbsp;₽!</h1>
+            <p class="hero__text">Оформите дебетовую карту &laquo;Мир&raquo; и&nbsp;получите кешбэк 1&nbsp;000&nbsp;баллов, а&nbsp;также сертификат на&nbsp;1&nbsp;000&nbsp;₽ в&nbsp;Яндекс Маркет, Золотое Яблоко, Детский Мир, Wildberriesили Озон!</p>
+    
+            <button class="hero__button ui-button">Оформить карту</button>
           </div>
+          <div class="hero__img">
+            <img src="./images/hero-img.png" alt="">
+          </div>
+          <button class="hero__button hero__button--mobile ui-button">Оформить карту</button>
         </div>
       </div>
 
-      <div class="container">
-        <div class="main-benefits">
-          <div class="benefit-item">
-            <img class="benefit-item__img" src="/images/benefit/percent.svg" alt="">
-            <p class="benefit-item__title">
-              До&nbsp;5% кешбэк
-            </p>
-            <p class="u-collapse-all">на одежду,  обувь, АЗС, такси, транспорт, аптеки, до 1% — на другие покупки</p>
-          </div>
-          <div class="benefit-item">
-            <img class="benefit-item__img" src="/images/benefit/percent.svg" alt="">
-            <p class="benefit-item__title">
-              12,5% годовых
-            </p>
-            <p class="u-collapse-all">по&nbsp;накопительному счету для новых клиентов</p>
-          </div>
-          <div class="benefit-item">
-            <img class="benefit-item__img" src="/images/benefit/percent.svg" alt="">
-            <p class="benefit-item__title">
-              0&nbsp;₽
-            </p>
-            <p class="u-collapse-all">обслуживание карты и&nbsp;оплата услуг ЖКХ</p>
-          </div>
-          <div class="benefit-item">
-            <img class="benefit-item__img" src="/images/benefit/percent.svg" alt="">
-            <p class="benefit-item__title">
-              Бесплатные переводы
-            </p>
-            <p class="u-collapse-all">в&nbsp;другие банки по&nbsp;номеру телефона через систему быстрых платежей &mdash; до&nbsp;150&nbsp;000&nbsp;₽ в&nbsp;месяц</p>
-          </div>
-          <div class="benefit-item">
-            <img class="benefit-item__img" src="/images/benefit/percent.svg" alt="">
-            <p class="benefit-item__title">
-              Снятие без&nbsp;комиссии
-            </p>
-            <p class="u-collapse-all">в&nbsp;банкоматах Газпромбанка и&nbsp;до&nbsp;200&nbsp;000&nbsp;₽ в&nbsp;месяц&nbsp;&mdash; в&nbsp;любых других банкоматах&nbsp;РФ</p>
-          </div>
-          <div class="benefit-item">
-            <img class="benefit-item__img" src="/images/benefit/percent.svg" alt="">
-            <p class="benefit-item__title">
-              До&nbsp;50% кешбэк у&nbsp;партнеров
-            </p>
-            <p class="u-collapse-all">дополнительно к&nbsp;программе лояльности</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="how-to-get">
+      <section class="benefits">
         <div class="container">
-          <div class="how-to-get__content">
-            <h2 class="ui-caption how-to-get__title">Как получить сертификат?</h2>
-            <ul class="ui-list">
-              <li class="ui-list__item">Оставьте свой номер телефона</li>
-              <li class="ui-list__item">Переходите по&nbsp;ссылке на&nbsp;сайт Газпромбанка после регистрации</li>
-              <li class="ui-list__item">Оформляйте дебетовую карту</li>
-              <li class="ui-list__item">Совершите покупки по&nbsp;карте на&nbsp;общую сумму от&nbsp;250&nbsp;₽ в&nbsp;течение 30&nbsp;дней</li>
-              <li class="ui-list__item">Сертификат в&nbsp;Золотое Яблоко придет в&nbsp;SMS на&nbsp;указанный номер телефона в&nbsp;течение 30&nbsp;дней после выполненных условий</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="registration" id="form">
-        <div class="container">
-          <div class="registration__content">
-            <h2 class="ui-caption registration__title">Регистрация</h2>
-            <p>Оставьте номер телефона, чтобы мы могли <br> отправить вам сертификат <b>ЗОЛОТОЕ ЯБЛОКО</b>.</p>
-            <p>Оформите дебетовую карту «Мир» на сайте Газпромбанка, мы перенаправим вас туда автоматически. </p>
-            <p>Совершите первую покупку, чтобы получить сертификат по указанному номеру.</p>
-
-            <div class="registration__form">
-              <form class="reg-form js-reg-form">
-                <div class="reg-form__row">
-                  <div class="reg-form__field">
-                    <div class="ui-input">
-                      <span class="ui-input__title">Промокод</span>
-                      <input class="ui-input__input js-input-code" name="code" type="text">
-                      <span class="ui-input__error"></span>
-                    </div>
-                  </div>
-                  <div class="reg-form__field">
-                    <div class="ui-input">
-                      <span class="ui-input__title">Номер телефона</span>
-                      <input id="js-input-phone" class="ui-input__input js-input-phone" name="phone" type="text">
-                      <span class="ui-input__error"></span>
-                    </div>
-                  </div>
-                </div>
-                <div class="ui-checkbox reg-form__agree">
-                  <label class="ui-checkbox__label">
-                    <input type="checkbox" class="js-checkbox" value="agree">
-                    <span class="ui-checkbox__box"></span>
-                    <span class="ui-checkbox__text">
-                      Я&nbsp;даю <a href="https://rafinad.io/download-file/privacy_policy" target="_blank">согласие</a> на&nbsp;обработку персональных данных и&nbsp;получение SMS-сообщений от&nbsp;Рафинад
-                    </span>
-                  </label>
-                  <span class="ui-checkbox__error"></span>
-                </div>
-                <span class="reg-form__error"></span>
-                <button type="submit" class="reg-form__button ui-button">Отправить</button>
-              </form>
+          <div class="benefits__list">
+            <div class="benefits-item">
+              <p class="benefits-item__title">До&nbsp;35% кешбэка</p>
+              <p class="benefits-item__text">на&nbsp;маркетплейсы, продуктовые магазины, рестораны и&nbsp;кафе, фастфуд, АЗС, общественный транспорт и&nbsp;такси, одежду и&nbsp;обувь, ЖКХ&nbsp;/ Госуслуги</p>
+            </div>
+            <div class="benefits-item">
+              <p class="benefits-item__title">Кешбэк 1&nbsp;000 баллов</p>
+              <p class="benefits-item__text">за&nbsp;покупки на&nbsp;общую сумму от&nbsp;1&nbsp;000&nbsp;₽</p>
+            </div>
+            <div class="benefits-item">
+              <p class="benefits-item__title">До&nbsp;20,5% годовых на&nbsp;остаток</p>
+              <p class="benefits-item__text">по&nbsp;накопительному счёту</p>
+            </div>
+            <div class="benefits-item">
+              <p class="benefits-item__title">0&nbsp;₽</p>
+              <p class="benefits-item__text">выпуск карты, доставка и&nbsp;обслуживание</p>
+            </div>
+            <div class="benefits-item">
+              <p class="benefits-item__title">Бесплатное снятие наличных</p>
+              <p class="benefits-item__text">в&nbsp;банкоматах Газпромбанка и&nbsp;до&nbsp;200&nbsp;000&nbsp;₽ в&nbsp;месяц&nbsp;&mdash; в&nbsp;любых других банкоматах&nbsp;РФ</p>
+            </div>
+            <div class="benefits-item">
+              <p class="benefits-item__title">Бесплатные переводы</p>
+              <p class="benefits-item__text">по&nbsp;номеру телефона через СБП: себе из&nbsp;других банков&nbsp;&mdash; до&nbsp;30&nbsp;млн&nbsp;₽, а&nbsp;другим людям в&nbsp;любые банки РФ&nbsp;&mdash; до&nbsp;150&nbsp;000&nbsp;₽ в&nbsp;месяц</p>
             </div>
           </div>
         </div>
-      </div>
+      </section>
+
+      <section class="how-to-get">
+        <div class="container how-to-get__container">
+          <div class="how-to-get__content">
+            <h2 class="how-to-get__title">Как получить сертификат?</h2>
+            <ul class="ui-list">
+              <li class="ui-list__item">
+                Оставьте свой номер телефона и&nbsp;адрес электронной почты для того, чтобы получить сертификат на&nbsp;сумму 1&nbsp;000&nbsp;₽
+              </li>
+              <li class="ui-list__item">
+                Перейдите на&nbsp;сайт Газпромбанка после обязательной регистрации на&nbsp;этой странице
+              </li>
+              <li class="ui-list__item">
+                Оформите дебетовую карту &laquo;Мир&raquo;
+              </li>
+              <li class="ui-list__item">
+                Оплатите картой покупки на&nbsp;сумму от&nbsp;1&nbsp;000&nbsp;₽
+              </li>
+              <li class="ui-list__item">
+                Сертификат придёт в&nbsp;СМС на&nbsp;указанный номер телефона в&nbsp;течение 60&nbsp;дней после покупки на&nbsp;сумму от&nbsp;1&nbsp;000&nbsp;₽
+              </li>
+              <li class="ui-list__item ui-list__item--attention">
+                Важно! Вам придёт сертификат только в&nbsp;том случае, если у&nbsp;вас нет дебетовых пластиковых карт &laquo;Мир&raquo; Газпромбанка, а&nbsp;также заявок на&nbsp;них в&nbsp;течение 30&nbsp;дней на&nbsp;момент оформления дебетовой карты &laquo;Мир&raquo;
+              </li>
+            </ul>
+          </div>
+          <div class="how-to-get__img">
+            <img src="./images/how-to-get-img.png" alt="">
+          </div>
+        </div>
+
+      </section>
+
+      <section class="choose-cert">
+        <div class="container">
+          <h2 class="choose-cert__title">Выберите сертификат</h2>
+
+          <div class="choose-cert__list">
+            <div class="cert-item cert-item--golden-apple">
+              <input class="cert-item__input" type="radio" name="cert" id="cert-1" checked>
+              <label class="cert-item__label" for="cert-1">
+                <img class="cert-item__img" src="./images/golden-apple.png" alt="Золотое яблоко">
+                <span class="cert-item__check"></span>
+              </label>
+            </div>
+            <div class="cert-item cert-item--yandex">
+              <input class="cert-item__input" type="radio" name="cert" id="cert-2">
+              <label class="cert-item__label" for="cert-2">
+                <img class="cert-item__img" src="./images/yandex.png" alt="Яндекс Маркет">
+                <span class="cert-item__check"></span>
+              </label>
+            </div>
+            <div class="cert-item cert-item--children-world">
+              <input class="cert-item__input" type="radio" name="cert" id="cert-3">
+              <label class="cert-item__label" for="cert-3">
+                <img class="cert-item__img" src="./images/children-world.png" alt="Детский мир">
+                <span class="cert-item__check"></span>
+              </label>
+            </div>
+            <div class="cert-item cert-item--ozon">
+              <input class="cert-item__input" type="radio" name="cert" id="cert-4">
+              <label class="cert-item__label" for="cert-4">
+                <img class="cert-item__img" src="./images/ozon.png" alt="Ozon">
+                <span class="cert-item__check"></span>
+              </label>
+            </div>
+            <div class="cert-item cert-item--wildberries">
+              <input class="cert-item__input" type="radio" name="cert" id="cert-5">
+              <label class="cert-item__label" for="cert-5">
+                <img class="cert-item__img" src="./images/wildberries.png" alt="Wildberries">
+                <span class="cert-item__check"></span>
+              </label>
+            </div>
+          </div>
+
+          <div class="choose-cert__info">
+            <div class="choose-cert__form">
+              <h3 class="form__title">Важно!</h3>
+              <ul class="ui-list">
+                <li class="ui-list__item">
+                  Для получения бонуса карта должна быть оформлена на&nbsp;тот&nbsp;же номер, что указан в&nbsp;поле &laquo;Номер телефона&raquo;
+                </li>
+                <li class="ui-list__item">
+                  После нажатия кнопки &laquo;Оформить карту&raquo;, вы&nbsp;будете перенаправлены на&nbsp;анкету, которую необходимо заполнить для получения дебетовой карты и&nbsp;бонуса
+                </li>
+                <li class="ui-list__item">
+                  Если данные будут заполнены не&nbsp;полностью или некорректно&nbsp;&mdash; бонус не&nbsp;будет начислен
+                </li>
+              </ul>
+  
+              <form class="reg-form js-reg-form">
+                <div class="reg-form__fields">
+                  <div class="reg-form__field">
+                    <div class="ui-input">
+                      <div class="ui-input__wrapper">
+                        <input placeholder="+7 (XXX) XXX-XX-XX" id="js-input-phone" class="ui-input__input js-input-phone" name="phone" type="text">
+                        <span class="ui-input__title">Номер телефона</span>
+                      </div>
+                      <span class="ui-input__error"></span>
+                    </div>
+                  </div>
+
+                  <div class="reg-form__field">
+                    <div class="ui-input">
+                      <div class="ui-input__wrapper">
+                        <input placeholder="example@mail.ru" class="ui-input__input js-input-email" name="email" type="text">
+                        <span class="ui-input__title">Электронная почта</span>
+                      </div>
+                      <span class="ui-input__error"></span>
+                    </div>
+                  </div>
+                  
+                  <div class="ui-checkbox reg-form__agree">
+                    <label class="ui-checkbox__label">
+                      <input type="checkbox" class="js-checkbox" value="agree">
+                      <span class="ui-checkbox__box"></span>
+                      <span class="ui-checkbox__text">
+                        Я&nbsp;даю согласие на&nbsp;<a href="https://rafinad.io/download-file/privacy_policy" target="_blank">обработку персональных данных</a> и&nbsp;получение СМС-сообщений от&nbsp;Rafinad.
+                      </span>
+                    </label>
+                    <span class="ui-checkbox__error"></span>
+                  </div>
+                </div>
+                
+                <span class="reg-form__error"></span>
+                <button type="submit" class="reg-form__button ui-button">Оформить карту</button>
+              </form>
+            </div>
+            
+          </div>
+        </div>
+        
+      </section>
     </main>
     <footer class="footer">
       <div class="container">
         <p>
-          Акция действует с&nbsp;01.09 по&nbsp;30.09. Участники: физ.лица (18+), граждане и&nbsp;резиденты РФ. Сертификат 1000 рублей в&nbsp;Золотое Яблоко отправляет партнер в&nbsp;течение 30&nbsp;дней только при условии, что вы&nbsp;оставили номер телефона на&nbsp;лендинге и&nbsp;выполнили все условия. Дебетовую карту можно оформить только одну и&nbsp;получить только один сертификат. Информация на&nbsp;14.08.2023. Банк ГПБ (АО). Лицензия Банка России &#8470;&nbsp;354. Реклама.
+        Акция &laquo;Оформите дебетовую карту &bdquo;Мир&ldquo; от&nbsp;Газпромбанк и&nbsp;получите подарочный сертификат&raquo; действует с&nbsp;01.10.2024 по&nbsp;30.11.2024&nbsp;Участники: физ. лица (18+), граждане и&nbsp;резиденты&nbsp;РФ, у&nbsp;которых нет дебетовых пластиковых карт Газпромбанка платежных систем Мир, Visa, Mastercard, а&nbsp;также заявок на&nbsp;них в&nbsp;течение 30&nbsp;дней на&nbsp;момент оформления дебетовой карты &laquo;Мир&raquo;; сертификат 1000&nbsp;руб.&nbsp;в&nbsp;Яндекс Маркет, Озон, Детский Мир, Золотое Яблоко, Wildberries отправляет организатор в&nbsp;течение 60&nbsp;дней после выполнения участником условий акции. Банк ГПБ (АО). Лицензия Банка России No&nbsp;354. Информация актуальна на&nbsp;01.10.2024 . Реклама. Организатор акции: ООО &laquo;Рафинад&raquo;.
         </p>
-        <p class="u-collapse-all">
-          Кешбэк у&nbsp;партнеров предоставляется ООО &laquo;Свиткард&raquo; ИНН 7709459157, ОГРН 1157746485192, доступ к&nbsp;спецпредложениям в&nbsp;моб. приложении Газпромбанка&nbsp;(0+).
+        <p>
+        По&nbsp;всем вопросам отправки сертификатов обращайтесь на&nbsp;почту sertificate@rafinad.io
+        </p>
+        <p>
+        Организатор акции &laquo;Приятный кешбэк&raquo;&nbsp;&mdash; Банк ГПБ (АО). Срок акции: 01.11.2023-30.10.2024 . Участники: физ. лица, граждане&nbsp;РФ (18+), нет дебет. карт Банка ГПБ (АО) и&nbsp;заявок на&nbsp;них на&nbsp;момент старта акции; дебет. неименная карта &laquo;Мир&raquo; в&nbsp;пакете услуг &laquo;Универсальный&raquo; с&nbsp;лояльностью &quot;Понятный кешбэк&quot;/&quot;Умный кешбэк&quot; (Карта) оформлена с&nbsp;01.11.23 по&nbsp;30.09.24 по&nbsp;ссылке с&nbsp;реклам. меткой и&nbsp;получена в&nbsp;теч.&nbsp;30&nbsp;календ. дней с&nbsp;момента подачи заявки, но&nbsp;не&nbsp;позднее 30.09.2024. Кешбэк 1000 баллов за&nbsp;покупки по&nbsp;Карте на&nbsp;общую сумму от&nbsp;1000&nbsp;₽ в&nbsp;период 30&nbsp;календ. дней с&nbsp;момента получения Карты; (1&nbsp;балл = 1&nbsp;₽ при компенсации покупки и&nbsp;1&nbsp;балл = 0,8&nbsp;₽ при конвертации в&nbsp;рубли в&nbsp;мобильном приложении Банка (0+)) выплата до&nbsp;25&nbsp;числа след. месяца после выполнения условий. Есть ограничения. Подробные условия на&nbsp;gazprombank.ru и&nbsp;по&nbsp;тел.&nbsp;8&nbsp;800 300-60-90 (беспл. звонок по&nbsp;РФ). 
+        </p>
+        <p>
+        Акция Банка ГПБ (АО) &laquo;Кешбэк на&nbsp;все самое важное&raquo;: 01.08.2024&nbsp;&mdash; 28.02.2025. Участники: держатели дебет. карты в&nbsp;пакете услуг &laquo;Универсальный&raquo; с&nbsp;подключ. Программой лояльности &laquo;Понятный кешбэк&raquo; или &laquo;Умный кешбэк&raquo;, предостав. согласие на&nbsp;участие до&nbsp;31.01.2025. 35% кешбэк в&nbsp;категориях супермаркеты, рестораны и&nbsp;кафе, фастфуд, маркетплейсы, одежда и&nbsp;обувь, АЗС, такси и&nbsp;общественный транспорт, ЖКХ и&nbsp;Госуслуги (перечень МСС-кодов указан в&nbsp;условиях акции). Выплата кешбэка ежемесячно: для клиентов без дебет. карт Банка ГПБ (АО) на&nbsp;01.08.2024: до&nbsp;2&nbsp;000 баллов при поддержании мин. остатка до&nbsp;29 999,99&nbsp;₽ включительно, до&nbsp;5&nbsp;000 баллов при поддержании мин. остатка от&nbsp;30 000,00&nbsp;₽, для клиентов&nbsp;&mdash; держателей дебет. карт на&nbsp;начало акции: до&nbsp;1&nbsp;000&nbsp;баллов.&nbsp;1&nbsp;балл = 1&nbsp;₽ при компенсации покупки и&nbsp;1&nbsp;балл = 0,8&nbsp;₽ при конвертации в&nbsp;рубли в&nbsp;мобильном приложении Банка (0+)). Мин. траты для получения кешбэка&nbsp;&mdash; 5&nbsp;000&nbsp;₽ в&nbsp;мес.
+        </p>
+        <p>
+        Снятие наличных без комиссии в&nbsp;любых банкоматах&nbsp;РФ до&nbsp;100&nbsp;000&nbsp;₽/мес., с&nbsp;Газпромбанк Привилегиями&nbsp;&mdash; до&nbsp;200&nbsp;000&nbsp;₽/мес., свыше&nbsp;&mdash; 1%&nbsp;(мин.&nbsp;300&nbsp;₽) до&nbsp;300&nbsp;тыс.&nbsp;₽/&nbsp;мес. Переводы без комиссии по&nbsp;номеру телефона через систему быстрых платежей: себе из&nbsp;других банков&nbsp;&mdash; до&nbsp;30&nbsp;млн&nbsp;₽, другим людям в&nbsp;любые банки РФ&nbsp;&mdash; до&nbsp;150&nbsp;000&nbsp;₽ в&nbsp;месяц с&nbsp;Газпромбанк Привилегиями, без Газпромбанк Привилегий &mdash; до&nbsp;100&nbsp;000&nbsp;₽/мес., свыше&nbsp;&mdash; комиссия 0,5% (макс.&nbsp;1&nbsp;500&nbsp;₽). 
+        </p>
+        <p>
+        Накопительный счет. Проценты на&nbsp;мин. остаток на&nbsp;счете за&nbsp;календ. мес.: при открытии в&nbsp;мобильном приложении (0+) или интернет-банке&nbsp;&mdash; макс.&nbsp;20,5% годовых в&nbsp;месяц открытия счета и&nbsp;след.&nbsp;за&nbsp;ним, если в&nbsp;послед.&nbsp;90&nbsp;календ. дней не&nbsp;было действующих и/или прекративших действие договоров вкладов и&nbsp;накоп. счетов на&nbsp;сумму от&nbsp;100&nbsp;руб.&nbsp;и&nbsp;нет накоп. счетов с&nbsp;действующей привет. надбавкой, иначе по&nbsp;базовой ставке&nbsp;10% годовых на&nbsp;сумму от&nbsp;5&nbsp;000&nbsp;руб. На&nbsp;сумму от&nbsp;1,5 млн руб. &mdash;&nbsp;ставка&nbsp;10% год. На&nbsp;сумму до&nbsp;5&nbsp;000&nbsp;руб. &mdash;&nbsp;0,01% годовых. Выплата процентов&nbsp;&mdash; ежемес.&nbsp;в&nbsp;1-й раб. день месяца, след.&nbsp;за&nbsp;расчетным. При закрытии счета в&nbsp;послед. расчет. период проценты не&nbsp;начисляются. Срок, пополнение, снятие&nbsp;&mdash; без ограничений. 
+        </p>
+        <p>
+        Подробнее на&nbsp;gazprombank.ru и&nbsp;по&nbsp;тел. 8-800-300-60-90 (беспл. звонок на&nbsp;территории РФ). Информация на&nbsp;01.10.2024. Банк ГПБ (АО). Лицензия Банка России No&nbsp;354. Реклама.
         </p>
       </div>
     </footer>
