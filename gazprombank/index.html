@@ -2,10 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Дебетовая карта «Мир» Газпромбанк</title>
-    <script src="https://www.google.com/recaptcha/api.js?render=6Lc0AM8nAAAAAHPMK_vWc_VhnukWqCmEXYs3ZgEo"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LfA288nAAAAAKt8TcmpQGAdfCnCAj3C1y5_6GLg"></script>
     
     <script type="module" crossorigin src="./assets/main.js"></script>
     <link rel="stylesheet" href="./assets/index.css">
@@ -23,7 +23,7 @@
             <h1 class="hero__title">Получите сертификат на&nbsp;1&nbsp;000&nbsp;₽!</h1>
             <p class="hero__text">Оформите дебетовую карту &laquo;Мир&raquo; и&nbsp;получите кешбэк 1&nbsp;000&nbsp;баллов, а&nbsp;также сертификат на&nbsp;1&nbsp;000&nbsp;₽ в&nbsp;Яндекс Маркет, Золотое Яблоко, Детский Мир, Wildberriesили Озон!</p>
     
-            <button class="hero__button ui-button">Оформить карту</button>
+            <a href="#form" class="hero__button ui-button">Оформить карту</a>
           </div>
           <div class="hero__img">
             <img src="./images/hero-img.png" alt="">
@@ -101,35 +101,35 @@
 
           <div class="choose-cert__list">
             <div class="cert-item cert-item--golden-apple">
-              <input class="cert-item__input" type="radio" name="cert" id="cert-1" checked>
+              <input class="cert-item__input" type="radio" name="cert" id="cert-1" value="127" checked>
               <label class="cert-item__label" for="cert-1">
                 <img class="cert-item__img" src="./images/golden-apple.png" alt="Золотое яблоко">
                 <span class="cert-item__check"></span>
               </label>
             </div>
             <div class="cert-item cert-item--yandex">
-              <input class="cert-item__input" type="radio" name="cert" id="cert-2">
+              <input class="cert-item__input" type="radio" name="cert" value="122" id="cert-2">
               <label class="cert-item__label" for="cert-2">
                 <img class="cert-item__img" src="./images/yandex.png" alt="Яндекс Маркет">
                 <span class="cert-item__check"></span>
               </label>
             </div>
             <div class="cert-item cert-item--children-world">
-              <input class="cert-item__input" type="radio" name="cert" id="cert-3">
+              <input class="cert-item__input" type="radio" name="cert" value="129" id="cert-3">
               <label class="cert-item__label" for="cert-3">
                 <img class="cert-item__img" src="./images/children-world.png" alt="Детский мир">
                 <span class="cert-item__check"></span>
               </label>
             </div>
             <div class="cert-item cert-item--ozon">
-              <input class="cert-item__input" type="radio" name="cert" id="cert-4">
+              <input class="cert-item__input" type="radio" name="cert" value="128" id="cert-4">
               <label class="cert-item__label" for="cert-4">
                 <img class="cert-item__img" src="./images/ozon.png" alt="Ozon">
                 <span class="cert-item__check"></span>
               </label>
             </div>
             <div class="cert-item cert-item--wildberries">
-              <input class="cert-item__input" type="radio" name="cert" id="cert-5">
+              <input class="cert-item__input" type="radio" name="cert" value="123" id="cert-5">
               <label class="cert-item__label" for="cert-5">
                 <img class="cert-item__img" src="./images/wildberries.png" alt="Wildberries">
                 <span class="cert-item__check"></span>
@@ -138,7 +138,7 @@
           </div>
 
           <div class="choose-cert__info">
-            <div class="choose-cert__form">
+            <div class="choose-cert__form" id="form">
               <h3 class="form__title">Важно!</h3>
               <ul class="ui-list">
                 <li class="ui-list__item">
